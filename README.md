@@ -20,7 +20,6 @@ Develop a user-friendly interface that visualizes and displays the cryptocurrenc
  3. Run the Streamlit app locally: `streamlit run app/streamlit_app.py`.
  
  Notes
- - To enable Refinitiv, install `refinitiv-data` and set `RD_APP_KEY` in the environment.
  - Default data interval is daily; intraday via yfinance is supported by changing the interval in the notebook.
  
  Task Plan
