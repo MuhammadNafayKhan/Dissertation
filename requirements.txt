@@ -1,0 +1,11 @@
+yfinance
+ta
+plotly
+scikit-learn
+tensorflow
+keras-tcn
+joblib
+pyyaml
+streamlit
+requests
+

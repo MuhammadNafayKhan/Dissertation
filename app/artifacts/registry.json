@@ -1,0 +1,40 @@
+{
+  "models": [
+    {
+      "type": "sklearn",
+      "name": "GBR",
+      "symbol": "BTC-USD",
+      "lookback": 60,
+      "horizon": 1,
+      "path": "artifacts/GBR_BTC-USD_lb60_h1.joblib"
+    },
+    {
+      "type": "sklearn",
+      "name": "SVR",
+      "symbol": "BTC-USD",
+      "lookback": 60,
+      "horizon": 1,
+      "path": "artifacts/SVR_BTC-USD_lb60_h1.joblib"
+    },
+    {
+      "type": "keras",
+      "name": "LSTM",
+      "symbol": "BTC-USD",
+      "lookback": 60,
+      "horizon": 1,
+      "path": "artifacts/LSTM_BTC-USD_lb60_h1.keras",
+      "scaler_x": "artifacts/LSTM_BTC-USD_lb60_h1_scaler_x.joblib",
+      "scaler_y": "artifacts/LSTM_BTC-USD_lb60_h1_scaler_y.joblib"
+    },
+    {
+      "type": "keras",
+      "name": "TCN",
+      "symbol": "BTC-USD",
+      "lookback": 60,
+      "horizon": 1,
+      "path": "artifacts/TCN_BTC-USD_lb60_h1.keras",
+      "scaler_x": "artifacts/TCN_BTC-USD_lb60_h1_scaler_x.joblib",
+      "scaler_y": "artifacts/TCN_BTC-USD_lb60_h1_scaler_y.joblib"
+    }
+  ]
+}

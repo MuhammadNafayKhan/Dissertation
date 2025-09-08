@@ -22,9 +22,9 @@ Develop a user-friendly interface that visualizes and displays the cryptocurrenc
  Notes
  - Default data interval is daily; intraday via yfinance is supported by changing the interval in the notebook.
  
- Task Plan
- 1. Implement data adapters (Yahoo, Refinitiv) and feature engineering.
+ Task 
+ 1. Implement data adapters (Yahoo, Bitfinix) and feature engineering.
  2. Build windowing and walk-forward evaluation.
  3. Train GBR, SVR, LSTM, TCN in Colab and save artifacts.
- 4. Wire up Streamlit UI with model selection and live charting.
+ 4. Streamlit UI with model selection and live charting.
  5. Validate end-to-end and document results.
